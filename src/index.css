@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 10px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+
+#root {
+  height: 100%;
+}
+
+.btn-link,
+.btn-login,
+.btn-signOut {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  text-decoration: none;
+  color: green;
+}
+
+.btn-login {
+  border-color: blue;
+  color: blue;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.btn-signOut {
+  border-color: tomato;
+  color: white;
+  background: tomato;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu {
+  padding: 10px;
+  background: #222128;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.menu a:hover {
+  cursor: pointer;
+  border-color: white;
+}
+
+/* a.active {
+  border-color: white;
+} */
+
+a.menu-item__link {
+  border-color: white;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 3px solid grey;
+}
+
+.post {
+  padding: 10px;
+  border: 1px solid silver;
+  margin-bottom: 5px;
+  display: block;
+  color: grey;
+}
+.post:hover {
+  border-color: black;
+  cursor: pointer;
+  color: black;
+}
+
+/* .post:visited {
+  color: purple;
+} */
+
+.footer {
+  padding: 10px;
+  background: silver;
+  margin-top: auto;
+}
